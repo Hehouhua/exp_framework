@@ -46,6 +46,10 @@ ReadMe for ctf_awd_helper
 ## 安装说明
 * 1.`pip install -r requirements.txt`
 ## 使用说明
+请先使用下面的命令设置好端口转发，其中key是rsa priv key
+```shell
+ssh -D 127.0.0.1:4444 -i key -p 1499 ctf@35.172.5.141
+```
 * 1.在攻击目标机器目录(target目录)下放置攻击目标文件
 * 2.获取提交flag的http请求，并把请求放在submit_flag_request.txt里
 * 3.在exp目录下放上按照相关接口写好每道题目的exp，如pwn1.py，同时在配置文件所在目录(config目录)config.ini下写好和目标机器相关配置项,如：<br>
