@@ -1,0 +1,7 @@
+POST /api/flag HTTP/1.1
+Host: 172.31.64.22
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Content-Type: application/json
+Accept: text/plain
+
+flag=123456&token=e59dfcc9c3a983cbdd3664dcb3b58acd
