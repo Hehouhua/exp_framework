@@ -38,10 +38,8 @@ ReadMe for ctf_awd_helper
 	* `consle_width.py`<br>
 	* `__init__.py`<br>
 * `target`			        #攻击目标文件存放的目录<br>
-	* `target_101`	        #候选target文件<br>
-	* `target_102`	        #候选target文件<br>
-	* `target_103`          #候选target文件<br>
-	* `target_104`	        #候选target文件<br>
+	* `target`	        	#候选target文件<br>
+	* `target_localhost`	#候选target文件<br>
 
 ## 安装说明
 * 1.`pip install -r requirements.txt`
