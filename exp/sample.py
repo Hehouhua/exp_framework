@@ -20,6 +20,8 @@ class exploit(plugin):
             error_msg = "\nparam_count not matched."
             self.log(__name__,error_msg)
             return False,self.host,self.port,self.args,flag,error_msg
+        #use self.save_data(__name__,"1.txt","anything") to write data you want to 1.txt
+        #use self.log(__name__,"anything") to write data you want to __name__.debug.log
         flag = "flag{this is flag}"
         return True,self.host,self.port,self.args,flag,'exploit success'
         
