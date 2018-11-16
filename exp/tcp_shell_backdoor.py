@@ -19,6 +19,7 @@ class exploit(plugin):
                 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 sock.connect((self.host, self.port))
                 sock.send(command)
+                sock.send("\n")
                 result = sock.recv(2048)
                 result = result.lower()
                 for vuln_str in self.command_list[command]:
